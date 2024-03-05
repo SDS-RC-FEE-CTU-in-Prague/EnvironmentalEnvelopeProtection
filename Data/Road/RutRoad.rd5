@@ -1,0 +1,137 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = IPGRoad 10.0
+FileCreator = CarMaker for Simulink 10.1
+LibVersion = 10.1
+Country = DEU
+nLinks = 1
+nJunctions = 1
+nObjects = 53
+nRoutes = 2
+RoadNetworkLength = 13535.8702876725
+BBox = -4096.94165698284 1315.25575478287 -2819.70737388395 16.3931169041546 -43.165988973843 18.4041019628325
+Route.0.Length = 13535.8702876725
+Route.1.Length = 13535.8702876725
+RST.Unit = kmh
+RST = 50 100 -1 30 70 50 -1 -1
+Movie = 0.2 1 0.02 0 0 0.5 0.5
+PathMode = -1
+Junction.0.ID = 0
+Junction.0.Type = Direct
+Junction.0.Knot = 0 0 0
+Junction.0.RST = Undefined
+Junction.0.AddParams = 0 -999 0 -999 0 -999
+Junction.0.Arm.0.ID = 1
+Junction.0.Arm.0 = 0 0.15 0 3 0
+Junction.0.Arm.1.ID = 2
+Junction.0.Arm.1 = 0 0.15 0 3 1
+Junction.0.MainArms = 0 1
+Link.0.ID = 3
+Link.0.Node0 = 0 0 0 0
+Link.0.Node1 = 0 0 0 0
+Link.0.RST = Undefined
+Link.0.RL.ID = 4
+Link.0.Seg.0.ID = 5
+Link.0.Seg.0.Type = File
+Link.0.Seg.0.File = Examples/Measured/TestTrack/RuralRoad.dig
+Link.0.Seg.0.FileAddParam = 0 0 1 1 0 0 0 0 0 0 1 1 1 0 0 "" 0
+Link.0.Seg.0.Param = 0 0.2 0 0 1 1 1 0
+Link.0.LaneSection.0.ID = 6
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0.ID = 7
+Link.0.LaneSection.0.LaneL.0 = 0 4 4 0 0 0 0
+Link.0.LaneSection.0.LaneL.0.ARP = 48 49 50 51 52 53
+Link.0.LaneSection.0.LaneL.0.Width:
+	37 -1 0 0 0 4 0 -999 -999
+Link.0.LaneSection.0.LaneL.1.ID = 9
+Link.0.LaneSection.0.LaneL.1 = 2 1 1 5 0 0 0
+Link.0.LaneSection.0.LaneR.0.ID = 10
+Link.0.LaneSection.0.LaneR.0 = 0 4 4 0 0 0 0
+Link.0.LaneSection.0.LaneR.0.ARP = 54 55 56 57 58 59
+Link.0.LaneSection.0.LaneR.0.Width:
+	38 -1 0 0 0 4 0 -999 -999
+Link.0.LaneSection.0.LaneR.1.ID = 12
+Link.0.LaneSection.0.LaneR.1 = 2 1 1 5 0 0 0
+LanePath.0 = 31 7 2 10 0.1 0.1
+LanePath.1 = 32 10 2 10 0.1 0.1
+Route.0.ID = 29
+Route.0.Name = Route
+Route.0.DrvPath.ID = 33
+Route.0.DrvPath:
+	32
+Route.1.ID = 30
+Route.1.Name = ReverseRoute
+Route.1.DrvPath.ID = 34
+Route.1.DrvPath:
+	31
+RL.4.RoadMarking.0.ID = 26 4
+RL.4.RoadMarking.0 = 0 0 0 1 0 0 0.1 0 1 0 0 0 0 1 1 4 ""
+RL.4.RoadMarking.1.ID = 28 4
+RL.4.RoadMarking.1 = 0 0 0 1 0.1 -1 0.1 0 1 0 0 2 0 1 1 1 ""
+RL.4.RoadMarking.2.ID = 27 4
+RL.4.RoadMarking.2 = 0 0 0 1 -0.1 1 0.1 0 1 0 0 2 0 1 1 4 ""
+RL.4.RoadMarking.3.ID = 18 4
+RL.4.RoadMarking.3 = 350 0 0 1 -1.106 100 0.1 0 2 2 99 2 4 1 0 1 ""
+RL.4.RoadMarking.3.Material.0 = Textures/Ground/Asphalt_03.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.4.RoadMarking.3.PointList:
+	-0.021 0.184
+	18.925 0.15
+	38.724 0.149
+	59.768 0.154
+	77.562 0.173
+	96.115 0.165
+	112.209 0.152
+	128.808 0.164
+	148.255 0.149
+	166.193 0.166
+	185.772 0.145
+	200.249 0.161
+RL.4.RoadMarking.4.ID = 17 4
+RL.4.RoadMarking.4 = 350 0 0 1 -1.544 100 0.1 0 2 2 98 2 4 1 0 1 ""
+RL.4.RoadMarking.4.Material.0 = Textures/Ground/Asphalt_03.jpg 0 0 0 0 0 0 1 1 0 0 0
+RL.4.RoadMarking.4.PointList:
+	0.029 -0.014
+	19.25 -0.007
+	55.053 -0.002
+	84.883 0.004
+	112.078 -0.004
+	145.261 -0.02
+	174.795 -0.023
+	200.312 -0.002
+RL.4.RoadMarking.5.ID = 16 4
+RL.4.RoadMarking.5 = 350 0 0 1 -2.81 100 0.1 0 2 2 96 2 4 1 0 1 ""
+RL.4.RoadMarking.5.Material.0 = Textures/Ground/Asphalt_03.jpg 0 0 0 0 0 0 1 1 0 0 0
+RL.4.RoadMarking.5.PointList:
+	0.102 -0.249
+	32.28 -0.215
+	49.342 -0.231
+	71.84 -0.202
+	86.51 -0.227
+	112.08 -0.219
+	131.808 -0.237
+	152.284 -0.241
+	171.459 -0.233
+	200.106 -0.25
+RL.4.RoadMarking.6.ID = 15 4
+RL.4.RoadMarking.6 = 350 0 0 1 -2.334 100 0.1 0 2 2 97 2 4 1 0 1 ""
+RL.4.RoadMarking.6.Material.0 = Textures/Ground/Asphalt_03.jpg 0 0 0 0 0 0 1 1 0 0 0
+RL.4.RoadMarking.6.PointList:
+	0.389 -0.034
+	15.568 -0.01
+	37.548 -0.019
+	59.968 0.023
+	88.413 0.012
+	121.169 0.019
+	145.785 0.023
+	170.894 -0.009
+	195.847 -0.007
+	200.396 -0.02
+RL.4.Bump.0.ID = 11 4
+RL.4.Bump.0.Type = Beam
+RL.4.Bump.0.Param = 410 0 -3.9 100 0 0 90 0.1 0.1 0.7 0.1 100
+RL.4.Bump.1.ID = 13 4
+RL.4.Bump.1.Type = Beam
+RL.4.Bump.1.Param = 410 0 -2.4 100 0 0 90 0.1 0.1 0.7 0.1 100
+RL.4.Bump.2.ID = 14 4
+RL.4.Bump.2.Type = Beam
+RL.4.Bump.2.Param = 410 0 -1 100 0 0 90 0.1 0.1 0.8 0.1 100
+MaxUsedObjId = 59
